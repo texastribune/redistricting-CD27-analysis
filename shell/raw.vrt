@@ -1,0 +1,39 @@
+<OGRVRTDataSource>
+
+<OGRVRTLayer name="PlanC1440_06_10_Elections">
+<SrcDataSource>PlanC1440_06_10_Elections.shp</SrcDataSource>
+</OGRVRTLayer>
+<OGRVRTLayer name="PLANC235">
+<SrcDataSource>PLANC235.shp</SrcDataSource>
+</OGRVRTLayer>
+
+<OGRVRTLayer name="tl_2010_48_tract10">
+<SrcDataSource>tl_2010_48_tract10.shp</SrcDataSource>
+</OGRVRTLayer>
+<OGRVRTLayer name="cd27_2006_2010">
+<SrcDataSource>cd27_2006_2010.shp</SrcDataSource>
+</OGRVRTLayer>
+
+<OGRVRTLayer name="tl_2012_48_tract">
+<SrcDataSource>tl_2012_48_tract.shp</SrcDataSource>
+</OGRVRTLayer>
+<OGRVRTLayer name="cd27_2012_current">
+<SrcDataSource>cd27_2012_current.shp</SrcDataSource>
+</OGRVRTLayer>
+
+<OGRVRTLayer name="a_tracts_within_cd27_2010">
+<SrcDataSource>a_tracts_within_cd27_2010.shp</SrcDataSource>
+</OGRVRTLayer>
+<OGRVRTLayer name="a_tracts_within_cd27_2012">
+<SrcDataSource>a_tracts_within_cd27_2012.shp</SrcDataSource>
+</OGRVRTLayer>
+
+<OGRVRTLayer name="DEC_10_SF1_all">
+<SrcDataSource>DEC_10_SF1_all.csv</SrcDataSource>
+</OGRVRTLayer>
+<OGRVRTLayer name="DEC_10_SF1_hispanic">
+<SrcDataSource>DEC_10_SF1_hispanic.csv</SrcDataSource>
+</OGRVRTLayer>
+
+</OGRVRTDataSource>
+

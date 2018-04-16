@@ -47,7 +47,7 @@ fi
 if [[ " ${params_array[*]} " != *" tracts "* ]]; then
   cd ../data/cd27-census-tracts
 
-  # Select our tracts by if they intersect with city lines
+  # Select our tracts by if they intersect with district
   echo "Year: 2010"
   ogr2ogr ../../edits/a_tracts_within_cd27_2010.shp ../../shell/$VRT -dialect sqlite -sql "SELECT * FROM tl_2010_48_tract10 a, cd27_2006_2010 b WHERE ST_Intersects(a.geometry, b.geometry)"
   
